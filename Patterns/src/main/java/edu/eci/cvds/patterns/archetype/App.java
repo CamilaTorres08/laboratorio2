@@ -13,7 +13,7 @@ public class App
             for(int i=0;i<args.length;i++){
                 name+=args[i];
             }*/
-            System.out.println("Hello "+String.join(", ",args));
+            System.out.println("Hello "+String.join(" ",args));
         }else{
             System.out.println( "Hello World!" );
         }
