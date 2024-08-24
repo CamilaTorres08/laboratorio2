@@ -24,22 +24,22 @@
 <ul>
     <li>Sin parámetros:
         <p>Al no mandar parámetros a la función, aparece el error <b>Parameter of type RegularShapeType is required</b> debido a que se verifica que los argumentos que recibe la función no sean nulos o diferentes de 1</p>
-        <img src="pruebaSinParametro.png" width="250">
+        <img src="pruebaSinParametro.png" width="400">
     </li>
     <li>Parámetro: qwerty
         <p>Al mandar el parámetro qwerty, aparece la excepción <b>IllegalArgumentException: Parameter qwerty is not a valid RegularShapeType</b> debido a que RegularShapeType solo acepta los valores Triangle, Quadrilateral, Pentagon, Hexagon</p>
-        <img src="pruebaQwerty.png" width="250">
+        <img src="pruebaQwerty.png" width="400">
     </li>
     <li>Parámetro: pentagon
         <p>Se produce la excepción <b>IllegalArgumentException: Parameter pentagon is not a valid RegularShapeType</b> ya que la enumeración tiene permitido el valor "Pentagon" pero este al tener la primera letra en minuscula no es aceptado.
         </p>
-        <img src="prueba_pentagon.png" width="250">
+        <img src="prueba_pentagon.png" width="400">
         <p>Al corregirlo colocando la P en mayúscula podemos oberservar su correcta ejecución</p>
-        <img src="pruebaPentagon.png" width="250">
+        <img src="pruebaPentagon.png" width="400">
     </li>
     <li>Parámetro: Hexagon
         <p>Este parámetro es aceptado ya que su sintaxis concuerda con el valor de la enumeración "Triangle" por tanto, la salida que ejecuta es <b>Successfully created a Hexagon with 6 sides.</b></p>
-        <img src="pruebaHexagon.png" width="250">
+        <img src="pruebaHexagon.png" width="400">
     </li>
 </ul>
 
