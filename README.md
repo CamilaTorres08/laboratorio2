@@ -11,8 +11,8 @@
 <p>Maven es una herramienta de automatización de construcción para proyectos Java. Facilita la gestión de dependencias, la compilación del código, la ejecución de pruebas, y el empaquetado del software. Utiliza un archivo de configuración llamado pom.xml (Project Object Model) para definir las dependencias del proyecto, los plugins y la configuración de construcción.</p>
 
 ### ¿Qué sucedió al ejecutar la clase con el nombre y apellido?
-<p> Al ejecutar la clase *App.java* con nombre y apellido, se imprimió el mensaje "Hello, Pepito Perez!" ya que al usar join, ambos argumentos se unen con un espacio en blanco entre ellos y se imprimen juntos</p>
-<img src="dos_argumentos.png" alt="Prueba de pasar dos argumentos a la clase App" width = "150">
+<p> Al ejecutar la clase <b>App.java</b> con nombre y apellido, se imprimió el mensaje "Hello, Pepito Perez!" ya que al usar join, ambos argumentos se unen con un espacio en blanco entre ellos y se imprimen juntos</p>
+<img src="dos_argumentos.png" alt="Prueba de pasar dos argumentos a la clase App" width = "800">
 
 
 ### ¿Cuál fábrica hiciste? y ¿Cuál es mejor?
@@ -23,23 +23,23 @@
 
 <ul>
     <li>Sin parámetros:
-        <p>Al no mandar parámetros a la función, aparece el error *Parameter of type RegularShapeType is required* debido a que se verifica que los argumentos que recibe la función no sean nulos o diferentes de 1</p>
-        <img src="pruebaSinParametro.png" width="100">
+        <p>Al no mandar parámetros a la función, aparece el error <b>Parameter of type RegularShapeType is required</b> debido a que se verifica que los argumentos que recibe la función no sean nulos o diferentes de 1</p>
+        <img src="pruebaSinParametro.png" width="800">
     </li>
     <li>Parámetro: qwerty
-        <p>Al mandar el parámetro qwerty, aparece la excepción *IllegalArgumentException: Parameter qwerty is not a valid RegularShapeType* debido a que RegularShapeType solo acepta los valores Triangle, Quadrilateral, Pentagon, Hexagon</p>
-        <img src="pruebaQwerty.png" width="100">
+        <p>Al mandar el parámetro qwerty, aparece la excepción <b>IllegalArgumentException: Parameter qwerty is not a valid RegularShapeType</b> debido a que RegularShapeType solo acepta los valores Triangle, Quadrilateral, Pentagon, Hexagon</p>
+        <img src="pruebaQwerty.png" width="800">
     </li>
     <li>Parámetro: pentagon
-        <p>Se produce la excepción *IllegalArgumentException: Parameter pentagon is not a valid RegularShapeType* ya que la enumeración tiene permitido el valor "Pentagon" pero este al tener la primera letra en minuscula no es aceptado.
+        <p>Se produce la excepción <b>IllegalArgumentException: Parameter pentagon is not a valid RegularShapeType</b> ya que la enumeración tiene permitido el valor "Pentagon" pero este al tener la primera letra en minuscula no es aceptado.
         </p>
-        <img src="prueba_pentagon.png" width="100">
+        <img src="prueba_pentagon.png" width="800">
         <p>Al corregirlo colocando la P en mayúscula podemos oberservar su correcta ejecución</p>
-        <img src="pruebaPentagon.png" width="100">
+        <img src="pruebaPentagon.png" width="800">
     </li>
     <li>Parámetro: Hexagon
-        <p>Este parámetro es aceptado ya que su sintaxis concuerda con el valor de la enumeración "Triangle" por tanto, la salida que ejecuta es *Successfully created a Hexagon with 6 sides.*</p>
-        <img src="pruebaHexagon.png" width="100">
+        <p>Este parámetro es aceptado ya que su sintaxis concuerda con el valor de la enumeración "Triangle" por tanto, la salida que ejecuta es <b>Successfully created a Hexagon with 6 sides.</b></p>
+        <img src="pruebaHexagon.png" width="800">
     </li>
 </ul>
 
@@ -48,6 +48,4 @@
 <ul>
     <li>https://www.javiergarzas.com/2014/06/maven-en-10-min.html</li>
     <li>https://www.javatutoriales.com/2021/12/diferencias-simple-factory-vs-factory.html</li>
-    <li></li>
-    <li></li>
 </ul>
