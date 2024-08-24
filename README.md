@@ -11,6 +11,9 @@
 <p>Maven es una herramienta de automatización de construcción para proyectos Java. Facilita la gestión de dependencias, la compilación del código, la ejecución de pruebas, y el empaquetado del software. Utiliza un archivo de configuración llamado pom.xml (Project Object Model) para definir las dependencias del proyecto, los plugins y la configuración de construcción.</p>
 
 ### ¿Qué sucedió al ejecutar la clase con el nombre y apellido?
+<p> Al ejecutar la clase *App.java* con nombre y apellido, se imprimió el mensaje "Hello, Pepito Perez!" ya que al usar join, ambos argumentos se unen con un espacio en blanco entre ellos y se imprimen juntos</p>
+<img src="dos_argumentos.png" alt="Prueba de pasar dos argumentos a la clase App" width = "150">
+
 
 ### ¿Cuál fábrica hiciste? y ¿Cuál es mejor?
 
@@ -19,10 +22,25 @@
 ### ¿Cuál(es) de las siguientes instrucciones se ejecutan y funcionan correctamente y por qué?
 
 <ul>
-    <li>Sin parámetros</li>
-    <li>Parámetro: qwerty</li>
-    <li>Parámetro: pentagon</li>
-    <li>Parámetro: Hexagon</li>
+    <li>Sin parámetros:
+        <p>Al no mandar parámetros a la función, aparece el error *Parameter of type RegularShapeType is required* debido a que se verifica que los argumentos que recibe la función no sean nulos o diferentes de 1</p>
+        <img src="pruebaSinParametro.png" width="100">
+    </li>
+    <li>Parámetro: qwerty
+        <p>Al mandar el parámetro qwerty, aparece la excepción *IllegalArgumentException: Parameter qwerty is not a valid RegularShapeType* debido a que RegularShapeType solo acepta los valores Triangle, Quadrilateral, Pentagon, Hexagon</p>
+        <img src="pruebaQwerty.png" width="100">
+    </li>
+    <li>Parámetro: pentagon
+        <p>Se produce la excepción *IllegalArgumentException: Parameter pentagon is not a valid RegularShapeType* ya que la enumeración tiene permitido el valor "Pentagon" pero este al tener la primera letra en minuscula no es aceptado.
+        </p>
+        <img src="prueba_pentagon.png" width="100">
+        <p>Al corregirlo colocando la P en mayúscula podemos oberservar su correcta ejecución</p>
+        <img src="pruebaPentagon.png" width="100">
+    </li>
+    <li>Parámetro: Hexagon
+        <p>Este parámetro es aceptado ya que su sintaxis concuerda con el valor de la enumeración "Triangle" por tanto, la salida que ejecuta es *Successfully created a Hexagon with 6 sides.*</p>
+        <img src="pruebaHexagon.png" width="100">
+    </li>
 </ul>
 
 ## Bibliografía

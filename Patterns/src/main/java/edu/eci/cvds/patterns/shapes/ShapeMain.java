@@ -2,7 +2,7 @@ package edu.eci.cvds.patterns.shapes;
 import edu.eci.cvds.patterns.shapes.Shape;
 import edu.eci.cvds.patterns.shapes.RegularShapeType;
 import edu.eci.cvds.patterns.shapes.ShapeFactory;
-
+import edu.eci.cvds.patterns.shapes.RegularShapeType;
 public class ShapeMain {
 
 
